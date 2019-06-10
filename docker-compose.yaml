@@ -9,3 +9,10 @@ services:
     ports: 
     - "9999:9999"
     - "8080:8080"
+  web2:
+    build: 
+      dockerfile: Dockerfile-Test27
+      context: ./
+    ports: 
+    - "9999:9999"
+    - "8080:8080"

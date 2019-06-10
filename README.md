@@ -70,7 +70,7 @@ docker-compose up -d web
 open http://localhost:9999
 ```
 
-## some notes
+## some notes [fixed use dalongrong/circus:2.7-slim-stretch works]
 
 current circushttpd  maybe not work still solve it
 
