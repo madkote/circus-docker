@@ -2,4 +2,10 @@ version: "3"
 services: 
   circus:
     build: ./
-    
+  web:
+    build: 
+      dockerfile: Dockerfile-Test
+      context: ./
+    ports: 
+    - "9999:9999"
+    - "8080:8080"
